@@ -39,8 +39,12 @@ java -jar target/triangle-analyzer-1.0-jar-with-dependencies.jar
 
 ## Tests & Coverage
 **Running tests**
-  mvn test
+
+mvn test
     
 **Generating Coverage**
-  mvn cobertura:cobertura
-  open target/site/cobertura/index.html
+
+mvn cobertura:cobertura
+
+open target/site/cobertura/index.html
+
