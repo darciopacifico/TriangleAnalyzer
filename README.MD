@@ -27,11 +27,9 @@ a single static method for triangle analysis.
 
 ## Run
   Direct from maven console
-  ------------------------
   mvn exec:java
-  
+------------------------
   As a fat jar:
-  ------------
   mvn install
   java -jar target/triangle-analyzer-1.0-jar-with-dependencies.jar 
 
