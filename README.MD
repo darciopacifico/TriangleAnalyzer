@@ -10,14 +10,14 @@ then print which kind of triangle was inputted.
 ## Design choices
 This app was constructed using two layers:
 
-1. A simple console interface, capable to interact with terminal user, collect and validate 
+1- A simple console interface, capable to interact with terminal user, collect and validate 
 entries, call a core component for triangle analysis, then translates core response 
 as a human readable response in console.
 
 The in/out dependency of console component should be passed in the constructor.
 In order to start in/out streams consumption, a blocker startConsole() method should be called. This design decision allows the console componente to be fully tested, mocking InputStream and PrintoutStream objects.
 
-2. A core triangle analyzer component, designed as a util class, with no public constructor and 
+2- A core triangle analyzer component, designed as a util class, with no public constructor and 
 a single static method for triangle analysis.
 
 # Running
