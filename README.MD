@@ -2,7 +2,7 @@ Triangle Analyzer
 =================
 ### Disclaimer:
 This little app analyzes a triad of console inputs, each one representing a triangle side, 
-then print which kind of triangle that was inputted.
+then print which kind of triangle that inputted.
 
 ## Design choices
 This app was constructed using two layers:
