@@ -26,11 +26,11 @@ a single static method for triangle analysis.
   Maven 2 for compile, tests and assembly of a jar file.
 
 ## Run
-Direct from maven console
+- Direct from maven console
 
 mvn exec:java
 
-As a fat jar:
+- As a fat jar:
 
 mvn install
 
